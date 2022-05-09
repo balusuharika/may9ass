@@ -1,0 +1,24 @@
+n=int(input())
+d={}
+for i in range(n):
+    x=input().split()
+    d[x[0]]=x[1]
+while True:
+    try:
+        NAME=input()
+        if NAME in d:
+            print(NAME,"==",d[NAME])
+        else:
+            print("Not Found")
+    except:
+        break
+          
+            
+
+output:
+2
+harika balusuharika@gmail.com
+taruni taruni@gmail.com
+harika
+harika == balusuharika@gmail.com
+
