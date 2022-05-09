@@ -1,0 +1,9 @@
+d={1:'harika',2:'bca',3:6,4:'aditya college'}
+d.clear()
+print(d)
+
+output:
+ ==========================
+{}
+
+retriv
